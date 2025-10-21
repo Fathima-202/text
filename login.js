@@ -15,7 +15,7 @@ function Login() {
     if (a === "" || b === "") {
       window.alert("Please enter all the credentials");
     } else if (a === "fathima@gmail.com" && b === "123") {
-      move("/main"); // Navigate to main page
+      move("/main"); // 
     } else {
       window.alert("Wrong credentials");
     }
